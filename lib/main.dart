@@ -16,3 +16,8 @@ void main() async {
     home: const TrView(),
   ));
 }
+
+/*
+1. Video (Maksimal 5 Menit)
+2. Di upload Youtube
+*/

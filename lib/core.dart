@@ -49,8 +49,6 @@ export 'package:example/module/tutorial/ltsm_navigation_with_slide_animation/con
 export 'package:example/module/tutorial/ltsm_navigation_with_slide_animation/view/ltsm_navigation_with_slide_animation_view.dart';
 export 'package:example/module/tutorial/ltsm_repeat_animation/controller/ltsm_repeat_animation_controller.dart';
 export 'package:example/module/tutorial/ltsm_repeat_animation/view/ltsm_repeat_animation_view.dart';
-export 'package:example/module/tutorial/ltsm_scroll/controller/ltsm_scroll_controller.dart';
-export 'package:example/module/tutorial/ltsm_scroll/view/ltsm_scroll_view.dart';
 export 'package:example/module/tutorial/tr/controller/tr_controller.dart';
 export 'package:example/module/tutorial/tr/view/tr_view.dart';
 export 'package:example/module/tutorial/tr/widget/tutorial_navigation_item.dart';

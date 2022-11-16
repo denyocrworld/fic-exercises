@@ -1,8 +1,5 @@
-import 'package:example/shared/widget/form/__form_example_non_reuseable.dart';
 import 'package:flutter/material.dart';
 import 'package:example/core.dart';
-
-import '../../../../shared/widget/form/__form_example.dart';
 
 /*
 KITA START 7:30 YAA!
