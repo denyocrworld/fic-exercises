@@ -14,6 +14,8 @@ import 'package:flutter/material.dart';
 // https://tinyurl.com/join-fugi
 
 late TrController t;
+late FormExampleView reuseableWidgetForm;
+late FormExampleNonReuseableView nonReuseableWidgetForm;
 
 void main() async {
   await initialize();
