@@ -10,6 +10,9 @@ import 'package:flutter/material.dart';
 // ? Link Golden Ticket (untuk umum) | member FIC tidak perlu isi ini
 // https://tinyurl.com/fic-golden-ticket
 
+// ? LINK JOIN FUGI:
+// https://tinyurl.com/join-fugi
+
 late TrController t;
 
 void main() async {
