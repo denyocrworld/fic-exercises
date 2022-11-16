@@ -6,6 +6,10 @@ import 'package:flutter/material.dart';
 
 // ? LINK GITHUB:
 // https://github.com/denyocrworld/fic-exercises
+
+// ? Link Golden Ticket (untuk umum) | member FIC tidak perlu isi ini
+// https://tinyurl.com/fic-golden-ticket
+
 late TrController t;
 
 void main() async {
