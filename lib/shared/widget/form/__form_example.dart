@@ -1,6 +1,4 @@
 import 'package:example/core.dart';
-import 'package:example/shared/widget/form/__form_detail_example.dart';
-import 'package:example/shared/widget/form/dropdown.dart';
 import 'package:flutter/material.dart';
 
 class FormExampleView extends StatefulWidget {

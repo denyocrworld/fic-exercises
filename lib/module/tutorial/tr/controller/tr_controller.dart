@@ -17,6 +17,45 @@ class TrController extends State<TrView> implements MvcController {
   @override
   Widget build(BuildContext context) => widget.build(context, this);
 
+  List ficStateManagementList = [
+    {
+      "label": "Counter",
+      "view": const FicCounterView(),
+    },
+    {
+      "label": "Loading",
+      "view": const FicLoadingView(),
+    },
+    {
+      "label": "Enabled or Disabled",
+      "view": const FicEnableOrDisabledView(),
+    },
+    {
+      "label": "Visiblity",
+      "view": const FicVisibilityView(),
+    },
+    {
+      "label": "Animation",
+      "view": const FicAnimationView(),
+    },
+    {
+      "label": "Navigation",
+      "view": const FicNavigationView(),
+    },
+    {
+      "label": "Cart",
+      "view": const FicCartView(),
+    },
+    {
+      "label": "Filter List",
+      "view": const FicFilterListView(),
+    },
+    {
+      "label": "Theme",
+      "view": const FicThemeView(),
+    },
+  ];
+
   List items = [
     {
       "label": "Counter",

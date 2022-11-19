@@ -5,6 +5,27 @@ it means you have to rename it to something more unique.
 */
 export 'package:example/module/debug/controller/debug_controller.dart';
 export 'package:example/module/debug/view/debug_view.dart';
+export 'package:example/module/tutorial/fic/fic_animation/controller/fic_animation_controller.dart';
+export 'package:example/module/tutorial/fic/fic_animation/view/fic_animation_view.dart';
+export 'package:example/module/tutorial/fic/fic_cart/controller/fic_cart_controller.dart';
+export 'package:example/module/tutorial/fic/fic_cart/view/fic_cart_view.dart';
+export 'package:example/module/tutorial/fic/fic_counter/controller/fic_counter_controller.dart';
+export 'package:example/module/tutorial/fic/fic_counter/view/fic_counter_view.dart';
+export 'package:example/module/tutorial/fic/fic_enable_or_disabled/controller/fic_enable_or_disabled_controller.dart';
+export 'package:example/module/tutorial/fic/fic_enable_or_disabled/view/fic_enable_or_disabled_view.dart';
+export 'package:example/module/tutorial/fic/fic_filter_list/controller/fic_filter_list_controller.dart';
+export 'package:example/module/tutorial/fic/fic_filter_list/view/fic_filter_list_view.dart';
+export 'package:example/module/tutorial/fic/fic_loading/controller/fic_loading_controller.dart';
+export 'package:example/module/tutorial/fic/fic_loading/view/fic_loading_view.dart';
+export 'package:example/module/tutorial/fic/fic_navigation/controller/fic_navigation_controller.dart';
+export 'package:example/module/tutorial/fic/fic_navigation/view/fic_navigation_view.dart';
+export 'package:example/module/tutorial/fic/fic_theme/controller/fic_theme_controller.dart';
+export 'package:example/module/tutorial/fic/fic_theme/theme/dark_theme.dart';
+export 'package:example/module/tutorial/fic/fic_theme/theme/light_theme.dart';
+export 'package:example/module/tutorial/fic/fic_theme/theme/purple_theme.dart';
+export 'package:example/module/tutorial/fic/fic_theme/view/fic_theme_view.dart';
+export 'package:example/module/tutorial/fic/fic_visibility/controller/fic_visibility_controller.dart';
+export 'package:example/module/tutorial/fic/fic_visibility/view/fic_visibility_view.dart';
 export 'package:example/module/tutorial/latihan/ltfm_checkout_form/controller/ltfm_checkout_form_controller.dart';
 export 'package:example/module/tutorial/latihan/ltfm_checkout_form/view/ltfm_checkout_form_view.dart';
 export 'package:example/module/tutorial/latihan/ltfm_edit_profile/controller/ltfm_edit_profile_controller.dart';

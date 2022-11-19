@@ -54,6 +54,26 @@ class TrView extends StatefulWidget {
           padding: const EdgeInsets.all(10.0),
           child: Column(
             children: [
+              header("FIC State Management"),
+              LayoutBuilder(builder: (context, constraints) {
+                return Wrap(
+                  spacing: 10,
+                  runSpacing: 10,
+                  children: List.generate(
+                    controller.ficStateManagementList.length,
+                    (index) {
+                      var item = controller.ficStateManagementList[index];
+                      var size = (constraints.biggest.width - (10 * 3)) / 4;
+                      return TutorialNavigationItem(
+                        item: item,
+                        size: size,
+                        index: index,
+                        color: Colors.purple,
+                      );
+                    },
+                  ),
+                );
+              }),
               header("State Management"),
               LayoutBuilder(builder: (context, constraints) {
                 return Wrap(
